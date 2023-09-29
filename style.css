@@ -1,10 +1,11 @@
 body {
     margin: 0;
+    background-color: rgb(204, 204, 204);
     padding: 0;
 }
 
 .main {
-    background-color: rgba(136, 136, 136, 0.247);
+    background-color: rgba(221, 221, 221, 0.507);
     position: absolute;
     width: 30%;
     height: 75%;
@@ -19,18 +20,19 @@ body {
 
 .Text {
     width: 100%;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: transparent;
     position: absolute;
     text-align: center;
     font-weight: bold;
     height: 7%;
+    top: 1%;
 }
 
 .username {
     border: none;
-    background-color: rgb(156, 156, 156);
+    background-color: rgb(204, 204, 204);
     width: 80%;
     height: 10%;
     font-size: 25px;
@@ -44,7 +46,7 @@ body {
 
 .usernameLogin {
     border: none;
-    background-color: rgb(156, 156, 156);
+    background-color: rgb(204, 204, 204);
     width: 80%;
     height: 10%;
     font-size: 25px;
@@ -58,7 +60,7 @@ body {
 
 .email {
     border: none;
-    background-color: rgb(156, 156, 156);
+    background-color: rgb(204, 204, 204);
     width: 80%;
     height: 10%;
     font-size: 25px;
@@ -72,7 +74,7 @@ body {
 
 .password {
     border: none;
-    background-color: rgb(156, 156, 156);
+    background-color: rgb(204, 204, 204);
     width: 80%;
     height: 10%;
     font-size: 25px;
@@ -87,7 +89,7 @@ body {
 .submit {
     cursor: pointer;
     border: none;
-    background-color: rgba(0, 0, 255, 0.493);
+    background-color: rgba(148, 148, 148, 0.493);
     width: 80%;
     height: 10%;
     font-size: 25px;
@@ -97,13 +99,15 @@ body {
     left: 50%;
     bottom: 15%;
     transform: translate(-50%, -50%);
+    outline: solid;
+    outline-width: 3px;
 }
 
 .alreadyText {
     border: none;
-    background-color: rgb(190, 190, 190);
+    background-color: rgba(148, 148, 148, 0.493);
     width: 80%;
-    height: 10%;
+    height: 10%;    
     font-size: 25px;
     font-weight: bold;
     border-radius: 15px;
@@ -116,5 +120,7 @@ body {
     bottom: 0%;
     color: black;
     text-decoration: none;
+    outline: solid;
+    outline-width: 3px;
     transform: translate(-50%, -50%);
 }
