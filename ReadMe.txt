@@ -8,11 +8,15 @@
 
 5. Create a new database named "loginandregister," or
 If you prefer a different database name, make sure to update the database name inside the dbConnection.php file within your project.
-Inside the database, create a table with the following specifications:
-
-6.  Create a column named "id" and set it to AUTO_INCREMENT.
+Inside the database, create a table called users with the following specifications:
+    Create a column named "id" and set it to AUTO_INCREMENT.
     Create a VARCHAR column named "username."
     Create a VARCHAR column named "email."
     Create a VARCHAR column named "password."
+
+6. Create another table called posts with the following specifications:
+    Create a column named "id" and set it to AUTO_INCREMENT.
+    Create a VARCHAR column named "text."
+    Create a VARCHAR column named "owner."
 
 7. Finally, to access your project, open a web browser and go to http://localhost:8080/LoginANDRegister/RegisterScreen.php. Note that you should replace "8080" with the actual port number configured in your XAMPP setup.
