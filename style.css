@@ -72,6 +72,21 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.post {
+    background-color: rgba(0, 255, 255, 0);
+    height: auto;
+}
+
+.posttext {
+    padding-bottom: 5%;
+    max-width: 10%;
+}
+
+.owner {
+    font-size: 17px;
+    top: 0%;
+}
+
 .password {
     border: none;
     background-color: rgb(204, 204, 204);
@@ -84,6 +99,20 @@ body {
     left: 50%;
     bottom: 30%;
     transform: translate(-50%, -50%);
+}
+
+.posts {
+    background-color: rgba(0, 0, 255, 0);
+    position: absolute; 
+    transform: translate(-50%, 0);
+    left: 50%;
+    width: 20%;
+    top: 8%;
+    height: auto;
+}
+
+tr {
+    background-color: red;
 }
 
 .submit {
